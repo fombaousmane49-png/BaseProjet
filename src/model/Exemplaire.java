@@ -16,4 +16,36 @@ public class Exemplaire {
     public String toString() {
         return code + " - " + ouvrage.titre + " | " + etat;
     }
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getCode() {
+		return code;
+	}
+
+	public void setCode(String code) {
+		this.code = code;
+	}
+
+	public String getEtat() {
+		return etat;
+	}
+
+	public void setEtat(String etat) {
+		this.etat = etat;
+	}
+
+	public Ouvrage getOuvrage() {
+		return ouvrage;
+	}
+
+	public void setOuvrage(Ouvrage ouvrage) {
+		this.ouvrage = ouvrage;
+	}
 }
